@@ -34,10 +34,10 @@ const Pricing = () => {
               <div
                 className={clsx(
                   "g4 rounded-14 before:h-100 pricing-head_btn_before absolute left-2 top-2 h-[calc(100%-16px)] w-[calc(50%-8px)] overflow-hidden shadow-400 transition-transform duration-500",
-                  !monthly && "translate-x-full",
+                  !monthly && "translate-x-full ",
                 )}
               />
-            </div>
+            </div> 
 
             <div className="pricing-bg">
               <img
